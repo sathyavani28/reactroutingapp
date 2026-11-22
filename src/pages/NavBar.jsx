@@ -7,6 +7,8 @@ import Login from './Login'
 import Contact from './Contact'
 
 import './style.css'
+import Demo1 from '../apidemo/Demo1'
+import Demo2 from '../apidemo/Demo2'
 
 export default function NavBar() {
   return (
@@ -29,6 +31,10 @@ export default function NavBar() {
        <Route path="/reg" element={<Registration/>}/>
        <Route path="/login" element={<Login/>}/>
        <Route path="contact" element={<Contact/>}/>
+
+
+       <Route path='/demo1' element={<Demo1/>}/>
+       <Route path='/demo2' element={<Demo2/>}/>
 
       </Routes>
 
